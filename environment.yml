@@ -1,0 +1,4 @@
+name: travelkml
+
+dependencies:
+  - python=3.11
