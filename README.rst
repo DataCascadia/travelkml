@@ -34,16 +34,12 @@ travelkml
 =========
 
 
-    Add a short description here!
+    Filter OSM data into a KML file with custom POI 
 
+The goal of this tool is to create a personal profile of travel preferences, then to scrape open GIS information 
+for the location of interest and filter the POI (points of interest) for those matching your interests.
 
-A longer description of your project goes here...
+The output .kml file can be loaded into mapping solutions like MAPS.ME or Google My Maps so places of special
+interest can be found easily while traveling.
 
-
-.. _pyscaffold-notes:
-
-Note
-====
-
-This project has been set up using PyScaffold 4.3.1. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+The project is currently under development and is not yet functional.

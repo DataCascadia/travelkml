@@ -6,6 +6,5 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 # For smarter version schemes and other configuration options,
 # check out https://github.com/pypa/setuptools_scm
-version_scheme = "no-guess-dev" # this was maybe causing 400 error in testpypi??
-# write_to = "travelkml/_version.py"
-# version_scheme = "no-local-version"
+version_scheme = "no-guess-dev"
+local_scheme = "no-local-version" # solves testpypi pep440 compatible error
